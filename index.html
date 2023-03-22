@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="./css/media_queries.css">
+    <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body class="dark-theme">
+    <nav class="navbar dark-theme-nav" id="nav">
+        <ul class="menu">
+            <li><a id="homeButton" class="active home" data-scroll>Home</a></li>
+            <li><a id="techstackButton" class="techstack"data-scroll>Techstack</a></li>
+            <li><a id="projectButton" class="project" data-scroll>Projects</a></li>
+            <li><button class="btn" id="darkButton"><i class="fa-solid fa-moon"></i></button></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="home">
+        <div class="boxWrapper">
+            <div class="contentMain">
+                <div class="mainTextHome">
+                    <p class="heading">I'M</p>
+                    <p class="name"> WILLIAM CRIS HOD</p>
+                    <p>BS Computer Science Student | Student Intern</p>
+                    <p class="links">
+                        <a href="https://www.facebook.com/williamcrshd02" target="_blank" class="fa-brands fa-facebook"></a>
+                        <a href="https://www.linkedin.com/in/william-cris-hod-73810b1b7/?fbclid=IwAR22qA_luhPh8EkrQbnBPiC9k7IakE_jejtawnDXGVN_lkK6k2-mS3iMdPY"  target="_blank" class="fa-brands fa-linkedin"></a>
+                        <a href="https://github.com/KyahWel"  target="_blank"  class="fa-brands fa-github"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="techstack" class="techstackDark">
+        <h1>Markup/Programming Languages, Frameworkes, Libraries and Databases I used</h1>
+        <div class="cards" id="techstack_cards"></div>
+    </section>
+    
+    <section id="project" class="project">
+        <div class="wrapper">
+           <h1>Here are my Projects uploaded on github:</h1>
+            <div class="cards_wrap" id="card_wrap"> </div>
+        </div>  
+    </section>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/techstack.js"></script>
+    <script src="./js/projects.js"></script>
+</body>
+</html>

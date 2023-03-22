@@ -1,0 +1,506 @@
+
+@media screen and (max-width: 1025px){
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .mainTextHome .heading{
+          line-height:2.7rem;
+          font-size: 2.2rem;
+      }
+      .mainTextHome .name{
+          line-height:3rem;
+          font-size: 4.2rem;
+      }
+      .mainTextHome p{
+          line-height:1.6rem;
+          font-size: 1.3rem;
+      }
+     /* H1 Titles */
+  
+     .techstackDark h1{
+          margin-top: 40px;
+          font-size: 1.5rem;
+          padding: 0px 30px;
+      }
+  
+     .wrapper h1{
+          font-size: 1.5rem;
+          letter-spacing: 1px;
+          margin-top: 120px;
+          padding: 0px 30px;
+      }
+  
+      /* Techstack */
+      .card_content i{
+          font-size: 5rem;
+        }
+      .card_content span{
+          font-size: 1.5rem;
+        }
+  
+      .cards_wrap .card_inner{
+          padding: 10px 20px;
+          height: 180px;
+      }
+      .services{
+          display: flex;
+          flex-direction: column;
+        }
+      .card{
+          padding: 53px 70px;
+          width: 50px;
+          height: 50px;
+      }
+      /* Projects */
+      .cards_wrap .card_item{
+          width: 48%;
+          margin: 7px 0;
+      }
+  
+      .cards_wrap .card_item .project_name{
+          font-size: 1rem;
+      }
+  
+      .card_inner .fab{
+          font-size: 50px;
+      }
+  
+      .cards_wrap .card_item .github_link {
+          font-size: 12px;
+          margin: 0px 0 10px;
+      }
+  
+      .cards_wrap .card_item .description{
+          font-size: 9px;
+          line-height: 12px;
+      }
+    .cards { grid-template-columns: repeat(5, 1fr); }
+}
+
+@media screen and (max-width: 823px){
+	
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .mainTextHome .heading{
+          line-height:2rem;
+          font-size: 2rem;
+      }
+      .mainTextHome .name{
+          line-height:3rem;
+          font-size: 3.8rem;
+      }
+      .mainTextHome p{
+          line-height:1.3rem;
+          font-size: 1rem;
+      }
+     /* H1 Titles */
+  
+     .techstackDark h1{
+          margin-top: 80px;
+          font-size: 1.5rem;
+          padding: 0px 20px;
+      }
+  
+     .wrapper h1{
+          font-size: 1.5rem;
+          letter-spacing: 1px;
+          margin-top: 120px;
+          padding: 0px 20px;
+      }
+  
+      /* Techstack */
+      .card_content i{
+          font-size: 5rem;
+        }
+      .card_content span{
+          font-size: 1.5rem;
+        }
+  
+      .cards_wrap .card_inner{
+          padding: 10px 30px;
+          height: 180px;
+      }
+      .services{
+          display: flex;
+          flex-direction: column;
+        }
+      
+  
+      .cards{
+          grid-template-columns: repeat(4, 1fr);
+      }
+      .card{
+          padding: 70px 60px;
+          width: 50px;
+          height: 50px;
+      }
+      /* Projects */
+      .cards_wrap .card_item{
+          width: 80%;
+          margin: 7px 0;
+      }
+  
+      .cards_wrap .card_item .project_name{
+          font-size: 1.2rem;
+      }
+  
+      .card_inner .fab{
+          font-size: 50px;
+      }
+  
+      .cards_wrap .card_item .github_link {
+          font-size: 14px;
+          margin: 0px 0 10px;
+      }
+  
+      .cards_wrap .card_item .description{
+          font-size: 10px;
+          line-height: 12px;
+      }
+}
+
+@media screen and (max-width: 701px){
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .mainTextHome .heading{
+        line-height:2rem;
+        font-size: 2rem;
+    }
+    .mainTextHome .name{
+        line-height:3rem;
+        font-size: 3.8rem;
+    }
+    .mainTextHome p{
+        line-height:1.5rem;
+        font-size: 1rem;
+    }
+   /* H1 Titles */
+
+   .techstackDark h1{
+        margin-top: 40px;
+        font-size: 1.2rem;
+        padding: 0px 20px;
+    }
+
+   .wrapper h1{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        margin-top: 70px;
+        padding: 0px 20px;
+    }
+
+    /* Projects */
+    .card_content i{
+        font-size: 3rem;
+      }
+    .card_content span{
+        font-size: 1rem;
+      }
+
+    .cards_wrap .card_inner{
+        padding: 10px 30px;
+        height: 180px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+      }
+	
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card{
+        padding: 35px 50px;
+        width: 50px;
+        height: 50px;
+    }
+    /* Projects */
+
+    .cards_wrap .card_item{
+		width: 80%;
+        margin: 7px 0;
+	}
+
+    .cards_wrap .card_item .project_name{
+        font-size: 1rem;
+    }
+
+    .card_inner .fab{
+        font-size: 50px;
+    }
+
+    .cards_wrap .card_item .github_link {
+        font-size: 12px;
+        margin: 0px 0 10px;
+    }
+
+    .cards_wrap .card_item .description{
+        font-size: 10px;
+        line-height: 12px;
+    }
+  }
+  
+@media screen and (max-width: 588px){
+    nav{
+        padding: 23px 15px; 
+    }
+    .links a{
+        font-size: 1rem;
+        line-height:1rem;
+    }
+
+    .home{
+        height: 40vh;
+        padding-top: 0;
+    }
+
+    /* Main Texts (Name) */
+
+    .contentMain{
+        height: 40vh;
+    }
+    .mainTextHome .heading{
+        line-height:1rem;
+        font-size: 1rem;
+    }
+    .mainTextHome .name{
+        line-height:2rem;
+        font-size: 2.3rem;
+    }
+    .mainTextHome p{
+        line-height:1rem;
+        font-size: .7rem;
+    }
+    /* navigation */
+    nav a{
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    /* H1 Titles */
+    .wrapper h1{
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        padding: 0px 20px;
+    }
+
+    .techstackDark h1{
+        margin-top: 40px;
+        font-size: 15px;
+        padding: 0px 20px;
+    }
+
+     /* Projects */
+    .card_content i{
+        font-size: 2rem;
+      }
+    .card_content span{
+        font-size: .7rem;
+      }
+
+    .cards_wrap .card_inner{
+        padding: 10px 20px;
+        height: 180px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+      }
+	.cards_wrap .card_item{
+		width: 80%;
+        margin: 7px 0;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+    .card{
+        padding: 35px 35px;
+        width: 50px;
+        height: 50px;
+    }
+    .card_inner .fab{
+        font-size: 40px;
+    }
+
+    .cards_wrap .card_item .project_name{
+        font-size: 1rem;
+    }
+
+    .cards_wrap .card_item .github_link {
+        font-size: 10px;
+        margin: 0px 0 10px;
+    }
+
+    .cards_wrap .card_item .description{
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 426px){
+     /* Projects */
+    .card_content i{
+        font-size: 2rem;
+      }
+    .card_content span{
+        font-size: .7rem;
+      }
+
+    .cards_wrap .card_inner{
+        padding: 10px 20px;
+        height: 180px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+      }
+	.cards_wrap .card_item{
+		width: 90%;
+        margin: 7px 0;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+    .card{
+        padding: 35px 35px;
+        width: 50px;
+        height: 50px;
+    }
+    .card_inner .fab{
+        font-size: 40px;
+    }
+
+    .cards_wrap .card_item .project_name{
+        font-size: .8rem;
+    }
+
+    .cards_wrap .card_item .github_link {
+        font-size: 8px;
+        margin: 0px 0 10px;
+    }
+
+    .cards_wrap .card_item .description{
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 357px){
+    nav{
+        padding: 23px 15px; 
+    }
+
+    .links a{
+        font-size: .7rem;
+        line-height:1rem;
+    }
+
+    .home{
+        height: 40vh;
+        padding-top: 0;
+    }
+
+    /* Main Texts (Name) */
+
+    .contentMain{
+        height: 40vh;
+    }
+    .mainTextHome .heading{
+        line-height:1rem;
+        font-size: 1rem;
+    }
+    .mainTextHome .name{
+        line-height:1.7rem;
+        font-size: 1.8rem;
+    }
+    .mainTextHome p{
+        line-height:1rem;
+        font-size: .5rem;
+    }
+    /* navigation */
+    nav a{
+        font-size: 8px;
+        padding: 10px 15px;
+    }
+
+    /* H1 Titles */
+    .wrapper h1{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        padding: 0px 20px;
+    }
+
+    .techstackDark h1{
+        margin-top: 40px;
+        font-size: 13px;
+        padding: 0px 20px;
+    }
+
+    /* Projects */
+   .card_content i{
+       font-size: 2rem;
+     }
+   .card_content span{
+       font-size: .7rem;
+     }
+
+   .cards_wrap .card_inner{
+       padding: 10px 20px;
+       height: 180px;
+   }
+   .services{
+       display: flex;
+       flex-direction: column;
+     }
+   .cards_wrap .card_item{
+       width: 90%;
+       margin: 7px 0;
+   }
+   .wrapper .header{
+       font-size: 14px;
+   }
+   .cards{
+       grid-template-columns: repeat(4, 1fr);
+
+   }
+   .card{
+       padding: 35px 20px;
+       width: 50px;
+       height: 50px;
+   }
+   .card_inner .fab{
+       font-size: 40px;
+   }
+
+   .cards_wrap .card_item .project_name{
+       font-size: .7rem;
+   }
+
+   .cards_wrap .card_item .github_link {
+       font-size: 8px;
+       margin: 0px 0 10px;
+   }
+
+   .cards_wrap .card_item .description{
+       font-size: 7px;
+       line-height: 12px;
+   }
+}

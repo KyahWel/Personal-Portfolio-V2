@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Quicksand:wght@300&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;800&display=swap');
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+:root {
+    --bgcolor: #151618;
+    --hoverText: #9AA7BA;
+    --lightColor: #f5f5f5;
+    --activeColor: #42A4FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: Montserrat; 
+}
+
+.light-theme{
+    transition: background-color 0.5s ease-in-out;
+    background-color: var(--lightColor);
+    color: var(--bgcolor);
+}
+
+.dark-theme{
+    transition: background-color 0.5s ease-in-out;
+    background-color: var(--bgcolor);
+    color: var(--lightColor);
+}
+
+.dark-theme-nav{
+    transition: background-color 0.5s ease-in-out;
+    background-color: var(--bgcolor);
+    color: var(--lightColor);
+}
+
+.light-theme-nav{
+    transition: background-color 0.5s ease-in-out;
+    background-color: var(--lightColor);
+    color: var(--bgcolor);
+}
+
+.contentMain{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+.boxWrapper{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 25px 8px var(--bgcolor) inset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/bg.jpg");
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home{
+    margin-top: 64px;
+}
+
+.mainTextHome{
+    color: var(--lightColor);
+}
+
+.mainTextHome .heading{
+    margin: 0;
+    padding: 0;
+    line-height:5rem;
+    font-size: 3rem;
+}
+
+.mainTextHome .name{
+    margin: 0;
+    padding: 0;
+    font-size: 6rem;
+    font-family: Poppins;
+    font-weight: 800;
+}
+
+.mainTextHome p{
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    line-height:3.5rem;
+}
+
+.links a{
+    color: var(--lightColor);
+    text-decoration: none;
+    font-size: 2rem;
+    line-height:3rem;
+    padding: 5px 6px;
+}
+
+.btn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor:pointer;
+    outline:none;
+    color: var(--lightColor);
+}
+
+.btn i{
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+nav{
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-transform: uppercase; 
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px 24px;
+}
+
+
+nav a:hover{
+    cursor: pointer;
+    color: var(--activeColor);
+    text-decoration: underline;
+    text-decoration-thickness: px; 
+}
+
+nav .active{
+    color: var(--activeColor);
+    text-decoration: underline;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Techstack */
+.techstackDark {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    color: var(--lightColor);
+    grid-template-areas:
+    'header header header header header header header header'
+    '. main main main main main main .'
+    '. main main main main main main .'
+    '. main main main main main main .'
+    ;
+}
+    
+.techstackDark h1{
+    padding-top: 30px;
+    grid-area: header;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    padding: 35px 35px;
+    width: 150px;
+	height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .cards {
+    max-width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-area: main;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .card_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card_content i{
+    margin: 0;
+    padding: 0;
+    font-size: 6rem;
+  }
+
+  .card_content span{
+    font-size: 1.4rem;
+  }
+
+
+/* Gitub Projects */
+.wrapper h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+  
+.cards_wrap{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.cards_wrap .card_item{
+	width: 45%;
+    border: 4px var(--bgcolor) solid;
+    margin-bottom: 10px;
+}
+
+.cards_wrap .card_inner{
+	background: var(--lightColor);
+	border-radius: 5px;
+	padding: 35px 20px;
+	min-width: 225px;
+	height: 315px;
+	width: 100%;
+}
+
+.cards_wrap .card_item .project_name{
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+    color: var(--bgcolor);
+}
+
+.cards_wrap .card_item .github_link {
+	color: var(--hoverText);
+	font-size: 15px;
+	font-weight: 100;
+	margin: 5px 0 10px;
+}
+
+.github_link a{
+    text-decoration: none;
+    color: var(--activeColor);
+}
+
+.cards_wrap .card_item .description{
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--bgcolor);
+}
+
+.card_inner .fab{
+    font-size: 70px;
+    color: var(--bgcolor);
+}
+
+
+
+
+
+  
